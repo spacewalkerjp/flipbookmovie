@@ -31,10 +31,10 @@ In this project, I'm going to explain the procedures and some scripts to make th
     * PowerShellスクリプトで全JPEGを、4K(3840x2160)の解像度にリサイズ、アスペクト比違い、縦撮り写真等も含めて拡張（背景色黒）する(ExiftoolとImageMagickを使用）
   * PS ffmpeg.exe -r 3 -i Base%06d.jpg -vcodec libx264 -b 60M -pix_fmt yuv420p -r 30 flipbook_r3_30fps.mp4
     * ffpmegで複数のJPEG画像から動画を作成する例：上記設定は 毎秒３枚, 出力動画30fps, 4K(3840x2160)解像度, 60Mbps Video bitrate, H264 encoding 
-  * (addtional:1a) PS exiftool Base000000.jpg | find "Date"
+  * (addtional:1a) exiftool -CreateDate Base000000.jpg
     * Base000000.jpg最初の画像の時刻を上記コマンドで調べる
-  * (addtional:1b) exiftool -alldates="2020-12-31 12:00:00" flipbook_r3_30fps.mp4
-    * flipbook_r3_30fps.mp4に撮影時刻等を記録する（任意の時間をセットする）コマンドの例
+  * (addtional:1b) exiftool -alldates="20XX-YY-ZZ AA:BB:CC" flipbook_r3_30fps.mp4
+    * flipbook_r3_30fps.mp4に撮影時刻等を記録する（任意の時間を設定する）コマンドの例
 # About PowerShell script `ResizeExtentJPEGTo4KJPEG.ps1` | スクリプト解説
   * 1) check the `Orientation` of the JPEG photo by using exiftool.exe to detect vertical photo.
   * 2) if the photo is vertical photo (EXIF JPEG Orientation is 6 or 8), reset the `Orientation` = 1 (normal : horizontal photo).
