@@ -1,6 +1,6 @@
 # Project making flip-book movie | プロジェクト パラパラ動画作成
-Make flip-book movie (4K) from many photos(JPEG).
-たくさんの写真(JPEG)から4Kのパラパラ動画を作ります。
+* Make flip-book movie (4K) from many photos(JPEG).
+* たくさんの写真(JPEG)から4Kのパラパラ動画を作ります。
 
 # Objective, background | 目的・背景
 I take many pictures(photos) of my family every day by my mirror less cameras.
