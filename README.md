@@ -21,6 +21,7 @@ In this project, I'm going to explain the procedures and some scripts to make th
 * EXIF編集：exiftool.exe (Windows binary : ExifTool Version Number : 11.99 )
 * 画像変換（リサイズ・拡張等）：ImageMagick 7.0.10-20-Q16 ( ImageMagick-7.0.10-20-Q16-x64-static.exe )
 * 動画作成：ffmpeg (Windows binary : ffmpeg-20200620-29ea4e1-win64-static.zip )
+* H/W Env (Reference) : AMD Ryzen 5 3600, NVIDIA GeForce GTX 1070(*if want to use GPU for ffmpeg encoding)
 
 # Procedure
   * PS dir *.jpg | %{$x=0} {Rename-Item $_ -NewName "Base$($x.tostring('000000')).jpg"; $x++ }
