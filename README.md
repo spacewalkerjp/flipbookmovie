@@ -40,6 +40,8 @@ In this project, I'm going to explain the procedures and some scripts to make th
     * Base000000.jpg最初の画像の時刻を上記コマンドで調べる
   * (addtional:1b) exiftool -alldates="20XX-YY-ZZ AA:BB:CC" flipbook_r3_30fps.mp4
     * flipbook_r3_30fps.mp4に撮影時刻等を記録する（任意の時間を設定する）コマンドの例
+
+    
 # About PowerShell script `ResizeExtentJPEGTo4KJPEG.ps1` | スクリプト解説
   * 1) check the `Orientation` of the JPEG photo by using exiftool.exe to detect vertical photo.
   * 2) if the photo is vertical photo (EXIF JPEG Orientation is 6 or 8), reset the `Orientation` = 1 (normal : horizontal photo).
