@@ -66,5 +66,5 @@ Script released under the [MIT License][License].
  
  [Blog-Badge]: https://img.shields.io/badge/Blog-spacewalker.jp-blue
  [Videos-Badge]: https://img.shields.io/badge/Youtube-spacewalker.jp-red
- [Blog]: https://www.youtube.com/c/spacewalkerjp/
+ [Blog]: https://www.spacewalker.jp/
  [Videos]: https://www.youtube.com/c/spacewalkerjp/
