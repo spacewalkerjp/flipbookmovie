@@ -16,6 +16,7 @@ In this project, I'm going to explain the procedures and some scripts to make th
 このプロジェクトでは、簡単に多量のJPEGから4K動画を作成する手順・スクリプトを紹介します。
 
 [![Videos][Videos-Badge]][Videos]
+[![Blog][Blog-Badge]][Blog]
 
 # Environment | 想定環境
 * Windows 10 (Pro)
@@ -63,5 +64,7 @@ Script released under the [MIT License][License].
 
 ## Disclaimer
  
+ [Blog-Badge]: https://img.shields.io/badge/Blog-spacewalker.jp-blue
  [Videos-Badge]: https://img.shields.io/badge/Youtube-spacewalker.jp-red
- [Videos]: http://videos.vrtk.io
+ [Blog]: https://www.youtube.com/c/spacewalkerjp/
+ [Videos]: https://www.youtube.com/c/spacewalkerjp/
