@@ -15,6 +15,8 @@ In this project, I'm going to explain the procedures and some scripts to make th
 そこで、その日単位の撮った全ての写真を使ってパラパラ動画（今回は4K動画）として残せば、その１枚１枚では没になった写真の利活用に繋がるのかなと考えました。
 このプロジェクトでは、簡単に多量のJPEGから4K動画を作成する手順・スクリプトを紹介します。
 
+[![Videos][Videos-Badge]][Videos]
+
 # Environment | 想定環境
 * Windows 10 (Pro)
 * スクリプト言語：PowerShell 7.0 (Or 5.1)
@@ -54,3 +56,12 @@ In this project, I'm going to explain the procedures and some scripts to make th
     * 3a) Orientation = 6, 8であった画像は90度（または-90度）回転させる(-rotate 90 オプションを追加）
     * 3b) それ以外は、3840x2160に長辺基準でリサイズ(-resizeオプション）し、その画像を中心に3840x2160になるように黒背景で拡張(-extentオプション)し、`out`フォルダに出力する。JPEGの変換品質は最高の100に設定
  * Ref) スクリプト中のfunction fStartProcessは、PowerShell内で、外部プロセスコマンドを立ち上げ、標準出力等を変数に格納する関数であり、exiftool, ImageMagick実行に利用している。
+ 
+ ## License
+
+Script released under the [MIT License][License].
+
+## Disclaimer
+ 
+ [Videos-Badge]: https://img.shields.io/badge/Youtube-spacewalker.jp-red
+ [Videos]: http://videos.vrtk.io
