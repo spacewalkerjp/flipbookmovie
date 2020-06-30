@@ -1,4 +1,5 @@
-# Project making flip-book movie from many photos | たくさんの写真からパラパラ4K動画作成
+# たくさんの写真からパラパラ4K動画作成
+# Project making flip-book movie from many photos
 
 ### 日本語 | [English](./docs/en/README.md)
 
