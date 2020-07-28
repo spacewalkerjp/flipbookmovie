@@ -43,6 +43,7 @@ for($i=0; $i -lt $jpeg_filepath_array.Length; $i ++){
 	#write-host "Exitcode: $iRet`r`n Output: $Output"
 
 	# get JPEG rotation value (1-8)
+	$JPEGOrientation = 1
 	$JPEGOrientation = [int]$pStdOut
 	Write-Output $JPEGOrientation
 
