@@ -1,6 +1,7 @@
 #/bin/sh
 
 echo "for macOS"
+echo "test1"
 
 mkdir out
 
